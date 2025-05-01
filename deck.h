@@ -12,10 +12,7 @@ class Deck {
           void Shuffle();
           Card DrawCard();
           void Reset();
-          deque<Card> cards;
-
-     private:
-        
+          deque<Card> cards; 
 };
 
 class EmptyDeckException : public exception {

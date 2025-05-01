@@ -61,7 +61,6 @@ Card Deck::DrawCard() {
 }
 
 void Deck::Reset() {
-     // FIXME: Want to make sure that memory is deleted.
      cards.clear();
 
      initializeCards(cards);
